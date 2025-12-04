@@ -1,0 +1,17 @@
+{
+    "Auth": true,
+    "Users": true,
+    "Academics": true,
+    "Attendance": true,
+    "Exams": true,
+    "Behavior": true,
+    "Communicatio": true,
+    "Timetable": true,
+    "Homework": true,
+    "Library": true,
+    "Counseling": true,
+    "Finance": true,
+    "Administration": true,
+    "Dashboard": true,
+    "Roles": true
+}

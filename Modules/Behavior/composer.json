@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/behavior",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Behavior\\": "app/",
+            "Modules\\Behavior\\Database\\Factories\\": "database/factories/",
+            "Modules\\Behavior\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Behavior\\Tests\\": "tests/"
+        }
+    }
+}
