@@ -26,8 +26,8 @@ return new class extends Migration {
 
             $table->timestamps();
 
-            $table->foreign('student_id')->references('id')->on('student')->onDelete('cascade');
-            $table->foreign('parent_id')->references('id')->on('parent')->onDelete('cascade');
+            $table->foreign('student_id')->references('id')->on('students')->onDelete('cascade');
+            $table->foreign('parent_id')->references('id')->on('parents')->onDelete('cascade');
 
             // Each student can only have one (father/mother/guardian/other)
             $table->unique(['student_id', 'relationship']);
